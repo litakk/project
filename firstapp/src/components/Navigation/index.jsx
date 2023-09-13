@@ -1,5 +1,4 @@
 import Nav from './Nav.jsx'
-import "./header.scss"
 
 const Navigation = () => {
     return (
