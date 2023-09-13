@@ -1,14 +1,13 @@
 import style from './header.scss'
 import audioFile from '../../Assets/Sounds/click.mp3'
 import linkAudioFile from '../../Assets/Sounds/link_click.mp3'
-import Home from './Home.jsx'
-    
 
+import { useState, useEffect } from 'react'
 import { Outlet, Link } from 'react-router-dom'
 
 
 function Nav() {
-
+    const [theme, setTheme] = useState(false)
     function playAudio() {
         const audio = new Audio(linkAudioFile)
         audio.play()
@@ -18,9 +17,20 @@ function Nav() {
         audio.play()
     }
 
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            const scrollHeihgt = window.scrollY
+            if (scrollHeihgt < 300) {
+                document.querySelector('nav').style.backgroundColor = '#ffffff30'
+            } else {
+                document.querySelector('nav').style.backgroundColor = '#1f1f1f'
+            }
+        })
+    }, [window.scrollY])
+
     return (
         <div>
-          
                 <Link to="/" onClick={playAudio}>Home</Link>
                 <Link to="/about" onClick={playAudio}>About</Link>
 
