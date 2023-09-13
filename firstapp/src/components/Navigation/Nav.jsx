@@ -5,7 +5,6 @@ import Home from './Home.jsx'
 
 
 import { Outlet, Link } from 'react-router-dom'
-import { useState, useEffect } from 'react'
 
 
 function Nav() {
