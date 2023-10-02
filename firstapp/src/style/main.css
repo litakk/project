@@ -10,9 +10,6 @@ body {
     height: 100vh;
 }
 nav {
-    position: absolute;
-    width: 50%;
-    left: 500px;
     padding: 2px;
     background-color: rgb(35, 33, 33);
     display: flex;
@@ -24,9 +21,6 @@ a {
     color: snow;
     padding: 20px;
     box-sizing: border-box;
-    background-color: gray;
-    border-radius: 30% 40% 20%;
-    
 
 }
 a:hover {

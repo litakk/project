@@ -1,0 +1,33 @@
+.log {
+    width: 25%;
+    height: 40vh;
+    background-color: snow;
+    border-radius: 10px;
+    color: black;
+    margin: 20px auto;
+    padding: 5px;
+}
+input {
+    display: block;
+    margin: 5px auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px gray , inset 1px 1px 10px gray ;
+}
+input:hover {
+    box-shadow: -5px -5px 10px gray , inset -1px -1px 10px gray ;
+}
+button {
+    display: block;
+    margin: 5px auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: lightgreen;
+    box-shadow: 5px 5px 10px gray , inset 1px 1px 10px gray ;
+}
+button:hover {
+    box-shadow: -5px -5px 10px gray , inset -1px -1px 10px gray ;
+    background-color: rgb(11, 176, 11);
+}
