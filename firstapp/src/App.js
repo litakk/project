@@ -1,20 +1,11 @@
-import "bootstrap/dist/css/bootstrap.min.css"
-import { BrowserRouter, Route, Routes } from 
-'react-router-dom';
-import Navigation from './components/Navigation';
-
+import './App.css';
+import Nav from './components/Nav';
 function App() {
-    return (
-
-        <div>
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Navigation />} >
-                    </Route>
-                </Routes>
-            </BrowserRouter>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Nav />
+    </div>
+  );
 }
 
 export default App;
