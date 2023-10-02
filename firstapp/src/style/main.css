@@ -16,14 +16,14 @@ nav {
     justify-content: space-evenly;
     outline: auto;
 }
-a {
+.na {
     text-decoration: none; 
     color: snow;
     padding: 20px;
     box-sizing: border-box;
-
+    background-color: #444;
+    transition: 1s;
 }
-a:hover {
-    color: rgb(255, 255, 0);
-
+.na:focus {
+background-color: #222;
 }

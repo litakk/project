@@ -11,18 +11,15 @@ function Nav() {
     return (
         <div className="main">
             <BrowserRouter>
-            <br />
                 <nav>
-                    <Link to="/">Home</Link>
-                    <Link to="About">About</Link>
-                    <Link to="/Signup">Sign up</Link>
+                    <Link to="/" className="na">Home</Link>
+                    <Link to="About" className="na">About</Link>
+                    <Link to="/Signup" className="na">Sign up</Link>
                 </nav>
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
-                <br />
+           
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/About" element={<About />} />
