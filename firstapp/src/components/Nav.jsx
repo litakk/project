@@ -7,7 +7,6 @@ import LogIn from "./LogIn";
 import Signup from "./Registration";
 
 import "../style/main.css"
-import "../style/main2.css"
 function Nav() {
     return (
         <div className="main">
@@ -31,10 +30,6 @@ function Nav() {
                 </Routes>
             </BrowserRouter>
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-            <div className="main-2">
-                <h1>In developing...</h1>
-                <h2>Loading..</h2>
-            </div>
         </div>
         
     )
