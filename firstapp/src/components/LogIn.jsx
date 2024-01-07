@@ -20,7 +20,7 @@ function Log() {
                 <input type="text" placeholder="User_Name" onChange={(e) => setname(e.target.value)} />
                 <input type="password" placeholder="Password" onChange={(e) => setpassword(e.target.value)} />
                 <button onClick={Savee}>
-                    submite
+                    submit
                 </button>
                 <button >
                     <Link to="/Signup">
