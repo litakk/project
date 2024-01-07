@@ -8,7 +8,7 @@ function Log() {
         let getname = localStorage.getItem("name")
         let getpass = localStorage.getItem("password")
         if (JSON.parse(getname) === name && password === JSON.parse(getpass)) {
-            alert("Welcome in Your Account")
+            alert("Welcome to Your Account")
         } else {
             alert("Error: 404")
         }
